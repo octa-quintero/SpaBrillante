@@ -1,0 +1,39 @@
+@import "../BaseLayout/variables.modules.scss";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(36, 44, 44);
+  border: 1.5px solid rgba(218, 141, 7, 0.538);
+  border-radius: 30px;
+  width: 30rem;
+  backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.544);
+    box-shadow: 0 0px 40px 0 rgba(218, 140, 7, 0.37);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  padding-top: 0;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+  }
+}
+
+

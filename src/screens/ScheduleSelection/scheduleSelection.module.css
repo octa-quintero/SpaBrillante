@@ -1,0 +1,153 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: row;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(33% - 5px), 3fr));
+  gap: 5px;
+}
+
+li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+
+.nextButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 25px;
+    padding: 3px 20px;
+    box-shadow: 0 0 10px rgb(218, 141, 10);
+    color: #ffffff;
+    border-radius: 5px;
+    border: rgb(218, 141, 7) solid 1px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    transition: 0.3s;
+  }
+  
+  .active,
+  .active:hover {
+    background-color: rgb(218, 141, 10);
+  }
+
+  .iconButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+    color: rgb(215, 6, 6);
+    transition: 1s;
+  }
+
+  .icon:hover {
+    transform: scale(1.1);
+  }
+
+  
+  .ButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.servicecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-weight: 200;
+}
+  
+.service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+  .service1{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(239, 126, 5);
+  }
+
+  .hourButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    padding: 3px 20px;
+    border: rgba(218, 141, 7, 0.544) 2px solid;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    background-color: transparent;
+    transition: 0.1s;
+  }
+
+  .selected {
+    width: 100%;
+    box-shadow: 0 0 10px rgb(218, 141, 7);
+    border: rgb(218, 141, 7) solid 1.5px;
+    border-radius: 5px;
+  }
+  
+  .hourButton:hover {
+    border-color: rgb(218, 141, 7);
+    transform: scale(1.02);
+  }
+  
+  .grid-item {
+    width: 100%;
+    flex-basis: calc(33.33% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+  .buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+

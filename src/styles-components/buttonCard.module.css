@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 25px;
+  padding: 0px 20px;
+  border: rgb(218, 141, 7) 2px solid;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px rgb(218, 141, 7);
+  transform: scale(1.03);
+  font-weight: bold;
+}

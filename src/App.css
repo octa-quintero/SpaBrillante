@@ -1,0 +1,24 @@
+:root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  font-family: "Comfortaa", sans-serif;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('../src/assets/samsung-galaxy-s21-stock-amoled-particles-yellow-black-1920x1200-3980.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+}
