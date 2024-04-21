@@ -22,7 +22,7 @@ Para ejecutar el proyecto en un entorno local, sigue estos pasos:
 1. Clona el repositorio desde [GitHub] https://github.com/octa-quintero/test-turnos a tu máquina local.
 2. Abre una terminal y navega hasta el directorio del proyecto.
 3. Ejecuta el comando `npm install` para instalar todas las dependencias del proyecto.
-4. Una vez completada la instalación, ejecuta el comando `npm start` para iniciar la aplicación.
+4. Una vez completada la instalación, ejecuta el comando `npm run dev` para iniciar la aplicación.
 5. La aplicación se abrirá en tu navegador web predeterminado y podrás interactuar con ella.
 
 ¡Disfruta explorando y utilizando la aplicación de turnos!
