@@ -1,5 +1,7 @@
 # Proyecto de Turnos
 
+![Imagen de la aplicación](./src/assets/mockup-spa.png)
+
 ## Descripción
 Este proyecto de turnos es una aplicación web diseñada para permitir a los usuarios reservar turnos para una variedad de servicios. La aplicación facilita la búsqueda y selección de servicios disponibles, la programación de citas y la confirmación de turnos.
 
