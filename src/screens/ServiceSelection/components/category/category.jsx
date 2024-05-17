@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getService } from '../../../../redux/actions/actionService';
-import style from './category.module.css';
+import style from '../../../../styles-components/category.module.css';
 
 const Category = ({ onCategoryChange }) => {
   const dispatch = useDispatch();

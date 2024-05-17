@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteTimeSlot } from '../../redux/actions/deleteTimeSlots';
-import style from './shifts.module.css';
+import style from '../../styles-components/shifts.module.css';
 
 const Shifts = () => {
   const confirmedSlots = useSelector(state => state.confirmedTimeSlots);

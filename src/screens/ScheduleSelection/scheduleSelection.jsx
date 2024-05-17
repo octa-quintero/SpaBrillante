@@ -4,7 +4,7 @@ import { useParams, NavLink, useNavigate } from 'react-router-dom';
 import { getSlots } from '../../redux/actions/slotsService';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBan } from '@fortawesome/free-solid-svg-icons';
-import style from './scheduleSelection.module.css';
+import style from '../../styles-components/scheduleSelection.module.css';
 
 const ScheduleSelection = () => {
   const dispatch = useDispatch();

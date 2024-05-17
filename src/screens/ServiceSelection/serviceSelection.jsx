@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Category from './components/category/category.jsx';
 import FormCategory from './components/formCategory/formCategory.jsx';
-import style from './serviceSelection.module.css'
+import style from '../../styles-components//serviceSelection.module.css'
 
 const ServiceSelection = () => {
   const [selectedCategory, setSelectedCategory] = useState('');
