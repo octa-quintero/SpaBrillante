@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Style from '../../styles-components/confirmEmail.module.css'
 
-export const Email = () => {
+export const ContactUs = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -24,10 +23,10 @@ export const Email = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <label>Nombre</label>
-      <input type="text" name="to_name" />
-      <label>E-mail</label>
-      <input type="email" name="e_mail" />
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email"/>
       <input type="submit" value="Send" />
     </form>
   );
