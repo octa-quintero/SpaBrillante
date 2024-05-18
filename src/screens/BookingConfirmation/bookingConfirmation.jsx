@@ -6,7 +6,7 @@ import { confirmTimeSlot } from '../../redux/actions/confimeTimeSlots';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBan } from '@fortawesome/free-solid-svg-icons';
 import style from '../../styles-components/bookingConfirmation.module.css';
-import Email from '../../components/email/confirmEmail'
+import Email from '../../components/email/confirmEmail.jsx';
 
 const BookingConfirmation = () => {
   const { serviceName, date, selectedTimeSlot } = useParams();

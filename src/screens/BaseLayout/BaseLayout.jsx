@@ -37,7 +37,7 @@ export default function BaseLayout() {
   >
     <img src={logo} alt="Logo" style={{ width: '150px', maxWidth: '100%' }} />
     <p style={{ fontSize: '12px', margin: '20px 0 2px 0' }}>Octavio Quintero</p>
-    <p style={{ fontSize: '10px', margin: '2px 0' }}>&copy; 2023</p>
+    <p style={{ fontSize: '10px', margin: '2px 0' }}>&copy; 2024</p>
   </Box>
 </Grid>
     </Box>

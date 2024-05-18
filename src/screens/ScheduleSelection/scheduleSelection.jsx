@@ -25,7 +25,6 @@ const ScheduleSelection = () => {
   };
 
   const handleGoBack = () => {
-    // Restablecer los estados
     setSelectedTimeSlotIndex(null);
     setIsNextButtonEnabled(false);
   };
