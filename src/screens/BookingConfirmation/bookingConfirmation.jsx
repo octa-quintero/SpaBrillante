@@ -6,7 +6,6 @@ import { confirmTimeSlot } from '../../redux/actions/confimeTimeSlots';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBan } from '@fortawesome/free-solid-svg-icons';
 import style from '../../styles-components/bookingConfirmation.module.css';
-import Email from '../../components/email/confirmEmail.jsx';
 
 const BookingConfirmation = () => {
   const { serviceName, date, selectedTimeSlot } = useParams();
@@ -34,7 +33,6 @@ const BookingConfirmation = () => {
         <p>Nombre del servicio: <b>{serviceName}</b></p>
         <p>Fecha: <b>{date}</b></p>
         <p>Horario: <b>{selectedTimeSlot}</b></p>
-        <Email/>
         <div className={style.buttonContent}>
           <button className={style.nextButton} onClick={handleConfirmTurn}>Confirmar</button>
           <button onClick={handleGoBack} className={style.iconButton}>

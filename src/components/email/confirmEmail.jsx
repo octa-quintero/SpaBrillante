@@ -1,18 +1,18 @@
-// Email.jsx
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import style from '../.././styles-components/confirmEmail.module.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
-const Email = ({ name, email }) => {
+export const ContactUs = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_tenvfun', 'template_jdvigrc', form.current, {
+      .sendForm('service_txhbyrb', 'changetemplate', form.current, {
         publicKey: 'PEwU5kv1Ebb7W8_Ja',
-        user_name: name,
-        user_email: email,
       })
       .then(
         () => {
@@ -25,14 +25,18 @@ const Email = ({ name, email }) => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form className={style.container} ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="user_name" defaultValue={name} />
+      <input className={style.input} type="text" name="user_name" />
       <label>Email</label>
-      <input type="email" name="user_email" defaultValue={email} />
-      <input type="submit" value="Send" />
+      <input className={style.input} type="email" name="user_email" />
+      <label>Message</label>
+      <textarea className={style.textarea} name="message" />
+      <div className={style.contentConfirm}>
+      <input className={style.confirm} type="submit" value="Send"/>
+      </div>
     </form>
   );
 };
 
-export default Email;
+export default ContactUs;

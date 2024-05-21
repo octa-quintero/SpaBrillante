@@ -1,15 +1,80 @@
-form{
+.container{
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: left;
   flex-direction: column;
-  width: 50%;
-  gap: 20px;
+  width: 70%;
+  gap: 7px;
 }
 
-label {
+.textarea{
   display: flex;
-  justify-content: left;
-  align-items: left;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  resize: vertical;
+  width: 100%;
+  height: 80px;
+  background-color: #2a2a2abb;
+  color:  rgb(202, 202, 202);
+  border: 1.8px solid rgb(218, 141, 7);
+  transition: 0.3s; 
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+.textarea:focus {
+  border-color: #ff5733;
+  outline: none;
+}
+
+.input{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #2a2a2abb;
+  color:  rgb(202, 202, 202);
+  border: 1.8px solid rgb(218, 141, 7);
+  transition: 0.8s;
+}
+
+.input:focus {
+  border-color: #ff5733;
+  outline: none;
+}
+
+.contentConfirm{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.confirm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 80px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #2a2a2abb;
+  color:  rgb(202, 202, 202);
+  border: 1.8px solid rgb(218, 141, 7);
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.confirm:hover {
+  border-color: #ff5733;
+  outline: none;
 }
