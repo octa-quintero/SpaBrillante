@@ -19,6 +19,9 @@ const Home = () => {
       </p>
       
       <div className={style.email}>
+      <p>
+        Explora nuestra selección de servicios y reserva tus turnos de manera fácil y conveniente.
+      </p>
         <ContactUs />
       </div>
     </div>

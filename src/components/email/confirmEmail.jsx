@@ -26,6 +26,7 @@ export const ContactUs = () => {
 
   return (
     <form className={style.container} ref={form} onSubmit={sendEmail}>
+      <h3>No dudes en contactarnos!</h3>
       <label>Name</label>
       <input className={style.input} type="text" name="user_name" />
       <label>Email</label>
